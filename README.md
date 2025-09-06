@@ -17,16 +17,22 @@ PORT=3000
 4.	Once the environment was ready, I wrote the API routes for courses and tested them using Postman.
 5.	Finally, I made sure CORS was enabled so the API could accept requests from the browser as well.
 
-How to Run;
+How to Run:
+
 To run the project, I start the MySQL server first and make sure the lab_crud_3isc database is ready.
 Then, I go to the project folder and start the backend with:
+
 npm run dev
+
 When everything is correct, the terminal shows:
+
 🚀 Server running…
 ✅ MySQL connected
+
 At that point, I can already use Postman or the browser to test the API.
 
 API Endpoints:
+
 Health Check
 
 •	GET /api/health → Returns server status.
@@ -45,9 +51,13 @@ Students
 Courses
 
 •	POST /api/courses → Add a new course.
+
 •	GET /api/courses → Retrieve all courses.
+
 •	GET /api/courses/:id → Get a course by ID.
+
 •	PUT /api/courses/:id → Update a course by ID.
+
 •	DELETE /api/courses/:id → Delete a course by ID.
 
 
