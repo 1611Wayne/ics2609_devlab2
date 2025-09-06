@@ -1,6 +1,6 @@
 # ics2609_devlab2
 
-Project Overview
+Project Overview:
 The purpose of this lab was to learn how to connect a Node.js server to a MySQL database, handle requests and responses, and test everything with Postman.
 
 Setup Steps
@@ -17,7 +17,7 @@ PORT=3000
 4.	Once the environment was ready, I wrote the API routes for courses and tested them using Postman.
 5.	Finally, I made sure CORS was enabled so the API could accept requests from the browser as well.
 
-How to Run
+How to Run;
 To run the project, I start the MySQL server first and make sure the lab_crud_3isc database is ready.
 Then, I go to the project folder and start the backend with:
 npm run dev
@@ -26,7 +26,7 @@ When everything is correct, the terminal shows:
 ✅ MySQL connected
 At that point, I can already use Postman or the browser to test the API.
 
-API Endpoints
+API Endpoints:
 Health Check
 •	GET /api/health → Returns server status.
 Students
