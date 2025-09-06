@@ -35,29 +35,29 @@ API Endpoints:
 
 Health Check
 
-•	GET /api/health → Returns server status.
+- GET /api/health → Returns server status.
 
 Students
 
-•	POST /api/students → Add a new student.
+-	POST /api/students → Add a new student.
 
-•	GET /api/students → Retrieve all students.
+-	GET /api/students → Retrieve all students.
 
-•	GET /api/students/:id → Get a student by ID.
+-	GET /api/students/:id → Get a student by ID.
 
-•	PUT /api/students/:id → Update a student by ID.
+-	PUT /api/students/:id → Update a student by ID.
 
-•	DELETE /api/students/:id → Delete a student by ID.
+-	DELETE /api/students/:id → Delete a student by ID.
 Courses
 
-•	POST /api/courses → Add a new course.
+-	POST /api/courses → Add a new course.
 
-•	GET /api/courses → Retrieve all courses.
+-	GET /api/courses → Retrieve all courses.
 
-•	GET /api/courses/:id → Get a course by ID.
+-	GET /api/courses/:id → Get a course by ID.
 
-•	PUT /api/courses/:id → Update a course by ID.
+-	PUT /api/courses/:id → Update a course by ID.
 
-•	DELETE /api/courses/:id → Delete a course by ID.
+-	DELETE /api/courses/:id → Delete a course by ID.
 
 
