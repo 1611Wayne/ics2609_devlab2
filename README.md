@@ -8,12 +8,19 @@ Setup Steps
 o	Inside it, I added a file named courses.
 2.	After that, I initialized a Node.js project and installed the necessary dependencies like express, mysql2, and cors.
 3.	I then made a .env.example file to keep my database connection details safe.
+
 Example values:
+
 DB_HOST=localhost
+
 DB_USER=
+
 DB_PASS=
+
 DB_NAME=
+
 PORT=3000
+
 4.	Once the environment was ready, I wrote the API routes for courses and tested them using Postman.
 5.	Finally, I made sure CORS was enabled so the API could accept requests from the browser as well.
 
